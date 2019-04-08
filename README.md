@@ -3,6 +3,6 @@
 ## Build
 
 ```
-$ bundle install
+$ bundle install --path=vendor
 $ bundle exec jekyll build --watch
 ```
