@@ -10,7 +10,7 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'アーカイブ'
+    - title: 'ホーム'
       url: '/'
     - title: 'TileCloud 公式サイト'
       url: 'https://tilecloud.io/'
