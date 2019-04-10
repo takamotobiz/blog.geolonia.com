@@ -10,8 +10,10 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Latest'
+    - title: 'アーカイブ'
       url: '/'
+    - title: 'TileCloud 公式サイト'
+      url: 'https://tilecloud.io/'
 
 grid_settings:
   grid_spacing: 10
