@@ -1,4 +1,5 @@
 site: TileCloud 開発ブログ
+timezone: Asia/Tokyo
 
 collections:
   pages:
