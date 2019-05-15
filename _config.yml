@@ -32,7 +32,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  
+
 sass:
   style: compressed
 
@@ -42,4 +42,11 @@ plugins:
 
 paginate: 6
 paginate_path: "/blog/page:num/"
-  
+
+authors:
+  miya:
+    avatar: miya.jpg
+    description: "和歌山県の串本町という辺境の地に在住。オープンソースが好きでコーギーとパンダの写真には問答無用でいいねをします。"
+    twitter: miya0001
+    github: miya0001
+    instagram: miya0001
