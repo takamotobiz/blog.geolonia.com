@@ -179,15 +179,16 @@ a.button
 
 .single
 {
+  padding-bottom: 0;
+
   .author
   {
     width: 100%;
     background-color: #555555;
-    margin: 40px 0;
+    margin: 40px 0 16px 0;
     overflow: hidden;
     box-sizing: border-box;
-    padding: 8px;
-    border-radius: 3px;
+    padding: 16px;
 
     .avatar
     {
@@ -208,7 +209,7 @@ a.button
       overflow: hidden;
       margin: 0;
       max-width: 100%;
-      padding-left: 8px;
+      padding-left: 16px;
       color: #ffffff;
     }
 
@@ -223,4 +224,11 @@ a.button
       margin-right: 8px;
     }
   }
+}
+
+.footer
+{
+  border-top: 1px solid #dedede;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
