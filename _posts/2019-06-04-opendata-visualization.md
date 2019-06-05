@@ -5,7 +5,7 @@ excerpt: TileCloud を使ってみる
 author: kamataryo
 ---
 
-TileCloud の特徴的な機能の 1 つが [Embed API](https://docs.tilecloud.io/embed-api/) で、これは簡単な HTML マークアップだけで地図を表示したりカスタマイズするためのものです。Embed API の使い方はとてもシンプルで、例えば次の 3 ステップだけで様々にカスタマイズされた地図を表示できます。
+TileCloud の特徴的な機能の 1 つが [Embed API](https://docs.tilecloud.io/embed-api/) で、これは簡単な HTML マークアップだけで地図を表示したりカスタマイズするためのものです。Embed API の使い方はとてもシンプルで、 3 ステップだけで様々にカスタマイズされた地図を表示できます。
 
 1. 所定の URL から Embed API の JavaScript を読み込む
 1. 地図を表示させたい HTML 要素に `.tilecloud` クラスを指定する
@@ -44,7 +44,7 @@ TileCloud の特徴的な機能の 1 つが [Embed API](https://docs.tilecloud.i
 
 [U.S. Geological Survey](https://www.usgs.gov/)
 
-データは GeoJSON や KML などの様々な形式でダウンロードできるほか、web API が提供されており、TileCloud を含む様々な Web サービスとマッシュアップして利用することができます。データはパブリックドメインとして利用できます。
+データは GeoJSON や KML などの様々な形式でダウンロードできるほか、web API が提供されており、TileCloud を含む様々な web サービスとマッシュアップして利用することができます。また、データそのものはパブリックドメインとして利用できます。
 
 [Copyrights and Credits - USGS](https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits)
 
@@ -55,13 +55,13 @@ TileCloud の特徴的な機能の 1 つが [Embed API](https://docs.tilecloud.i
 ## USGS から GeoJSON のエンドポイントを取得する
 
 [GeoJSON](https://docs.tilecloud.io/tutorial/007/#geojson-%E3%81%A8%E3%81%AF) は、地理空間上の点、ポリゴン（領域）、ポリライン（線）などの**地物**を JSON 形式で表すことができる標準的なデータフォーマットです。
-地震カタログ検索から操作して地震の震源地のデータを GeoJSON 形式で取得することができます。
+地震カタログ検索を使いうと地震の震源地のデータを GeoJSON 形式で取得できます。
 
 USGS の地震カタログ検索からマグニチュードや期間などのオプションを選択して、
 
 ![options](/images/20190604/01_options.png)
 
-データを取得する位置を矩形で選択し、
+データを取得する位置（今回は日本近海のデータを取得します）を矩形で選択し、
 
 ![rectangle](/images/20190604/02_rectangle.png)
 
@@ -88,7 +88,7 @@ GeoJSON を TileCloud の地図上に表示するのはとても簡単です。 
 
 <div class="tilecloud" data-geojson="https://earthquake.usgs.gov/fdsnws/event/1/query.geojson?starttime=2019-05-06%2000:00:00&endtime=2019-06-05%2023:59:59&maxlatitude=53.998&minlatitude=21.028&maxlongitude=161.713&minlongitude=125.151&minmagnitude=-1&orderby=time"></div>
 
-日本近海の過去 30 日の震源がクラスター化されて表示されました。
+日本近海ので発生した地震の震源がクラスター化されて表示されました。
 データ配信専用の API を使う以外にも、例えば集めた地物のデータを GeoJSON に変換して GitHub にプッシュし、GitHub Pages などの機能でホストしたりすれば、それらも簡単に表示することができます。
 
 以下の地図では、GitHub のリポジトリ [kamataryo/geojson-samples](https://github.com/kamataryo/geojson-samples/tree/gh-pages) にホストした琵琶湖の島一覧の GeoJSON を読み込んでいます。
