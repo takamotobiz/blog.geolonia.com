@@ -10,16 +10,19 @@ collections:
     permalink: /blog/:slug
 
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
     values:
       layout: "default"
-  - scope:
+  -
+    scope:
       path: ""
       type: "pages"
     values:
-      layout: 'page'
-  - scope:
+      layout: "page"
+  -
+    scope:
       path: ""
       type: "posts"
     values:
