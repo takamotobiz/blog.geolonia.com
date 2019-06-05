@@ -10,23 +10,20 @@ collections:
     permalink: /blog/:slug
 
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+      path: ''
     values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "pages"
+      layout: 'default'
+  - scope:
+      path: ''
+      type: 'pages'
     values:
-      layout: "page"
-  -
-    scope:
-      path: ""
-      type: "posts"
+      layout: 'page'
+  - scope:
+      path: ''
+      type: 'posts'
     values:
-      layout: "post"
+      layout: 'post'
 
 markdown: kramdown
 
@@ -42,12 +39,18 @@ plugins:
   - jekyll-sitemap
 
 paginate: 6
-paginate_path: "/blog/page:num/"
+paginate_path: '/blog/page:num/'
 
 authors:
   miya:
     avatar: miya.jpg
-    description: "和歌山県の串本町という辺境の地に在住。オープンソースが好きでコーギーとパンダの写真には問答無用でいいねをします。"
+    description: '和歌山県の串本町という辺境の地に在住。オープンソースが好きでコーギーとパンダの写真には問答無用でいいねをします。'
     twitter: miya0001
     github: miya0001
     instagram: miya0001
+  kamataryo:
+    avatar: kamataryo.jpg
+    description: '滋賀県の山奥在住。動物や植物に親しみながらリモートで開発をしています。'
+    twitter: kamataryo_
+    github: kamataryo
+    instagram: kamata.ryo
