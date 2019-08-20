@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Geolonia 開発ブログ
-  site_tagline: 地図専用ホスティングサービス Geolonia の開発者ブログです。
+  site_tagline: 位置情報ホスティングサービス Geolonia の開発者ブログです。
   favicon_image: /images/favicon.png
 
 header_settings:
