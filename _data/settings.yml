@@ -1,6 +1,6 @@
 basic_settings:
-  site_title: TileCloud 開発ブログ
-  site_tagline: 地図専用ホスティングサービス TileCloud の開発者ブログです。
+  site_title: Geolonia 開発ブログ
+  site_tagline: 位置情報ホスティングサービス Geolonia の開発者ブログです。
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -12,8 +12,8 @@ menu_settings:
   menu_items:
     - title: 'ホーム'
       url: '/'
-    - title: 'TileCloud 公式サイト'
-      url: 'https://tilecloud.io/'
+    - title: 'Geolonia 公式サイト'
+      url: 'https://geolonia.com/'
 
 grid_settings:
   grid_spacing: 10
