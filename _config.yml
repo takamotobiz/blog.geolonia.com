@@ -4,6 +4,8 @@ author:             Geolonia
 baseurl:            ""
 url:                "https://blog.geolonia.com"
 
+future: true
+
 # Social Profiles
 twitter_username:   SBootstrap
 github_username:    geoloniamap
