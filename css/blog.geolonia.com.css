@@ -1,0 +1,23 @@
+pre
+{
+  background-color: #003366;
+  color: #ffffff;
+  padding: 16px;
+}
+
+.post ul
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.post ul ul
+{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a
+{
+  color: #0085A1;
+}
