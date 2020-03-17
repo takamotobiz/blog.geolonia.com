@@ -1,6 +1,7 @@
 ---
+layout: post
 title: 'TileCloud を使ってオープンデータをビジュアライズしてみよう！'
-featured_image: /images/20190604/header.png
+background: /img/20190604/header.png
 excerpt: TileCloud を使ってみる
 author: kamataryo
 ---
@@ -59,15 +60,15 @@ TileCloud の特徴的な機能の 1 つが [Embed API](https://docs.tilecloud.i
 
 USGS の地震カタログ検索からマグニチュードや期間などのオプションを選択して、
 
-![options](/images/20190604/01_options.png)
+![options](/img/20190604/01_options.png)
 
 データを取得する位置（今回は日本近海のデータを取得します）を矩形で選択し、
 
-![rectangle](/images/20190604/02_rectangle.png)
+![rectangle](/img/20190604/02_rectangle.png)
 
 データの出力形式を選択します。
 
-![format](/images/20190604/03_format.png)
+![format](/img/20190604/03_format.png)
 
 `search` というボタンを押すと、例えば以下のような URL に移動します。 この際に GeoJSON のデータが表示されるはずです。このデータは、2019 年 6 月 5 日までの過去 30 日に発生した地震の震源（点データ）の分布を表す GeoJSON です。
 
