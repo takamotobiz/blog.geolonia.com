@@ -2,7 +2,7 @@
 layout: post
 title: "βテスト開始: Geolonia の地図を GitHub Page で無料でお試しいただけます！"
 background: /img/20200319/background.jpg
-excerpt: FOSS4G Tokai 2019 で発表したスライドと参加した感想について。
+excerpt: Geolonia の JavaScript API が実運用可能なクオリティに達したと判断しまして、ようやく皆様にお試しいただくことができるようになりました。
 author: miya
 ---
 
