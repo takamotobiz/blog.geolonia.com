@@ -72,8 +72,6 @@ Geolonia の地図をご利用いただくには、API キーが必要です。
 
 [https://codepen.io/geolonia/](https://codepen.io/geolonia/)
 
----
-
 ## 今後の予定
 
 現在ダッシュボードの開発を行っており、独自ドメインでの運用に関しましては、一部のユーザーの皆様に対してのみご提供しております。
