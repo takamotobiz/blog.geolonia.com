@@ -27,7 +27,7 @@ author: miya
 
 以下の条件でご利用頂く場合に限り、無料とさせていただきます。
 
-* [GitHub Pages](https://pages.github.com/) 上の `*.github.io` ドメイン （GitHub ページであっても独自ドメインは除外とさせていただきます。）
+* [GitHub Pages](https://pages.github.com/) 上の `*.github.io` ドメイン （GitHub Pages であっても独自ドメインは除外とさせていただきます。）
 * 以下にあげるコードサンドボックス系のサイト
   * [CodePen](https://codepen.io/)
   * [CodeSandbox](https://codesandbox.io/)
