@@ -71,7 +71,7 @@ Geolonia の地図をご利用いただくには、API キーが必要です。
   class="geolonia" style="width: 100%; height: 300px;"
   data-lat="35.7101"
   data-lng="139.8107"
-  data-zoom="16"mm
+  data-zoom="16"
 ></div>
 ```
 
