@@ -21,6 +21,7 @@ author: miya
 * ベクトルタイルというフォーマットを採用しており WebGL にてレンダリングされているため、自由度の高いデザインが特徴で、JavaScript API も高機能です。
 * OpenStreetMap を基盤としているため、印刷して再配布することが可能であることなど、自由度の高いライセンスになっています。
 * Cookie を使用しておらず、地図を閲覧するユーザーの個人情報を取り扱っておりません。
+* JavaScript が書けなくても HTML だけで地図を設置することが可能です。
 
 ## βテストへの参加条件
 
@@ -70,17 +71,22 @@ Geolonia の地図をご利用いただくには、API キーが必要です。
   class="geolonia" style="width: 100%; height: 300px;"
   data-lat="35.7101"
   data-lng="139.8107"
-  data-zoom="16"
+  data-zoom="16"mm
 ></div>
 ```
 
-[CodePen でサンプルをみる](https://codepen.io/geolonia/pen/XWbYMGW)
+<p class="codepen" style="text-align: right;"><a href="https://codepen.io/geolonia/pen/XWbYMGW">CodePen でサンプルをみる</a></p>
 
 [詳しくは Geolonia の公式ドキュメントを御覧ください。](https://docs.geolonia.com/)
 
-また、CodePen にていくつかのサンプルを公開しています。今後も増やしていく予定ですのでぜひ御覧ください。
+### その他のサンプル
 
-[https://codepen.io/geolonia/](https://codepen.io/geolonia/)
+Geolonia では、CodePen にていくつかのサンプルを公開しています。以下に、代表的なものをいくつかご紹介します。
+
+* [JavaScript API を使用した地図のテンプレート](https://codepen.io/geolonia/pen/XWbYMGW)
+* [JavaScript で地図のバックグラウンド画像を設定](https://codepen.io/geolonia/pen/LYVmLrK)
+* [カラーピッカーで地図の背景色をダイナミックに変更](https://codepen.io/geolonia/pen/jOPzjQz)
+* [GeoJSON を読み込んで複数のマーカーを色分け表示](https://codepen.io/geolonia/pen/zYGRgdq)
 
 ## 今後の予定
 

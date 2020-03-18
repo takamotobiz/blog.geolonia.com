@@ -41,3 +41,18 @@ img
   padding-bottom: 16px;
   margin-top: 60px;
 }
+
+p.codepen
+{
+  text-align: right;
+  margin-top: 0;
+}
+
+p.codepen a
+{
+  padding-left: 28px;
+  background-image: url("../img/codepen.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 80%;
+}
