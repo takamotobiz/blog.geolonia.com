@@ -1,8 +1,9 @@
 pre
 {
-  background-color: #003366;
+  background-color: #555555;
   color: #ffffff;
   padding: 16px;
+  font-size: 80%;
 }
 
 .post ul
