@@ -74,6 +74,8 @@ Geolonia の地図をご利用いただくには、API キーが必要です。
 ></div>
 ```
 
+[CodePen でサンプルをみる](https://codepen.io/geolonia/pen/XWbYMGW)
+
 [詳しくは Geolonia の公式ドキュメントを御覧ください。](https://docs.geolonia.com/)
 
 また、CodePen にていくつかのサンプルを公開しています。今後も増やしていく予定ですのでぜひ御覧ください。
