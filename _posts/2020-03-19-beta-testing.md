@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "βテスト開始: Geolonia の地図を GitHub Page で無料でお試しいただけます！"
+title: "βテスト開始: Geolonia の地図を GitHub Pages などの環境で無料でお試しいただけます！"
 background: /img/20200319/background.jpg
 excerpt: Geolonia の JavaScript API が実運用可能なクオリティに達したと判断しまして、ようやく皆様にお試しいただくことができるようになりました。
 author: miya
