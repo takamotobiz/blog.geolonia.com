@@ -157,6 +157,14 @@ Source Layer については、地理院タイルの仕様から `building` と�
 
 Geolonia の地図は、CodePen 上でも無料で使えるという超親切設計なので、ぜひFork して遊んでみてください。
 
+## まじめに作ってみた
+
+OSM の建物と地理院地図の建物を差し替えたスタイルを作ってみました。
+
+[https://geolonia.github.io/preview/#geolonia/basic-gsij](https://geolonia.github.io/preview/#geolonia/basic-gsij)
+
+率直に選択肢の一つとしてもうすこしブラッシュアップしてみようかなと思いました。ベクトルタイルは、単純な見た目のデザインの自由度だけじゃなく、こうやって複数のデータソースを組み合わせることができるのも大きなメリットの一つです。
+
 ## お問い合わせ
 
 弊社に対するお問い合わせは、以下のフォームからどうぞ。
