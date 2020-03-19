@@ -130,9 +130,36 @@ Source Layer については、地理院タイルの仕様から `building` と�
 
 すると、地図の中にある建物の色が変わると思います。それらが地理院地図から取り込んだ建物となります。
 
-あと、このままだと、たまにポリゴンの形状がぶっ壊れた建物が出てくると思います。それを防ぐために以下のようにフィルターを設定して、ぶっこわれたポリゴンがレンダリングされないようにしておくといいです。
+あと、このままだと、たまに以下のスクショのようにポリゴンの形状がぶっ壊れた建物が出てくると思います。
 
-![](https://www.evernote.com/l/ABWpB3XEb4VFwb0KmJEh7qaNBX-2nDyVtyIB/image.png)
+![](https://www.evernote.com/l/ABX8fOUbLaxNM4wX3Q8LPwzFgkO9HH4iFIkB/image.png)
+
+それを防ぐために以下のようにフィルターを設定して、ぶっこわれたポリゴンがレンダリングされないようにしておくといいです。
+
+ただし、この部分は UI だとうまくできないので、下のほうにある JSON Editor で以下のように設定してください。
+
+![](https://www.evernote.com/l/ABX5zxyFZ8NCpKIdX94yLV8zEuEQQNaoYoQB/image.png)
+
+```
+{
+  "id": "building-gsi-japan",
+  "type": "fill",
+  "source": "gsi-japan",
+  "source-layer": "building",
+  "filter": [
+    "all",
+    [
+      "==",
+      "$type",
+      "Polygon"
+    ]
+  ]
+}
+```
+
+フィルターを適用後は以下のような感じです。
+
+![](https://www.evernote.com/l/ABUGkAFflnNCvIwQz96junlr7jXYdzmpOvAB/image.png)
 
 やや説明は長くなりましたが、やってみれば数回の手順なので、10分以内で試すことができると思います。
 
