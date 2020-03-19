@@ -25,15 +25,11 @@ author: miya
 
 ## Maputnik を準備する
 
-Geolonia や 国土地理院の地図は、[Mapbox](https://www.mapbox.com/) 社の [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/) というオープンソースプロジェクトを使用していて、スタイルをカスタマイズするためのツールも、オープンソースプロジェクトが存在しています。それが今回紹介する Maputnik です。
-
-[https://maputnik.github.io/](https://github.com/geolonia/midnight)
+Geolonia や 国土地理院の地図は、[Mapbox](https://www.mapbox.com/) 社の [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/) というオープンソースプロジェクトを使用していて、スタイルをカスタマイズするためのツールも、オープンソースプロジェクトが存在しています。それが今回紹介する [Maputnik](https://github.com/geolonia/midnight) です。
 
 Maputnik はブラウザで動作するツールなので、今回は Geolonia のスタイルをベースに Maputnik でごにょごにょやっていきましょう。
 
-以下の GitHub リポジトリは、Geolonia の "Midnight" というスタイルです。
-
-[https://github.com/geolonia/midnight](https://github.com/geolonia/midnight)
+以下の GitHub リポジトリは、Geolonia の [Midnight](https://github.com/geolonia/midnight) というスタイルです。
 
 Geolonia は、すべてのスタイルを GitHub 上に公開していて、それぞれの README に "DEMO on editor" というリンクがはってあります。
 
@@ -167,8 +163,8 @@ Source Layer については、地理院タイルの仕様から `building` と�
 
 地理院地図に含まれる Source Layer は、GitHub の 「地理院地図Vector（仮称）提供実験」のリポジトリからリンクされている「地物コード及び表示ズームレベル一覧」に記載されています。
 
-* GitHub リポジトリ: [https://github.com/gsi-cyberjapan/gsimaps-vector-experiment](https://github.com/gsi-cyberjapan/gsimaps-vector-experiment)
-* 地物コード及び表示ズームレベル一覧: [https://maps.gsi.go.jp/help/pdf/vector/dataspec.pdf](https://maps.gsi.go.jp/help/pdf/vector/dataspec.pdf)
+* [地理院地図Vector（仮称）提供実験の GitHub リポジトリ](https://github.com/gsi-cyberjapan/gsimaps-vector-experiment)
+* [地物コード及び表示ズームレベル一覧](https://maps.gsi.go.jp/help/pdf/vector/dataspec.pdf)
 
 この PDF 内の表の `source-layer` という列の値が、レイヤーを追加したときに入力した `Source Layer` に入力されるべき値です。
 
@@ -194,6 +190,4 @@ OSM の建物と地理院地図の建物を差し替えたスタイルを作っ�
 
 ## お問い合わせ
 
-弊社に対するお問い合わせは、以下のフォームからどうぞ。
-
-[https://geolonia.com/contact/](https://geolonia.com/contact/)
+[弊社に対するお問い合わせは、こちらのフォームからどうぞ。](https://geolonia.com/contact/)
