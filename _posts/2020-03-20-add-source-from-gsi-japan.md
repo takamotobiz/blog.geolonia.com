@@ -12,7 +12,7 @@ author: miya
 
 国土地理院さんが、公開したベクトルタイルは、Geolonia の地図と同じフォーマットの Mapbox GL JS ベースなので、さっそく取り込んで試してみました。
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="miya0001" data-slug-hash="dyoKzEN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="GSI Japan + OSM">
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="miya0001" data-slug-hash="dyoKzEN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="GSI Japan + OSM">
   <span>See the Pen <a href="https://codepen.io/miya0001/pen/dyoKzEN">
   GSI Japan + OSM</a> by Takayuki Miyauchi (<a href="https://codepen.io/miya0001">@miya0001</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
