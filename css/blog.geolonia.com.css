@@ -1,0 +1,58 @@
+pre
+{
+  background-color: #555555;
+  color: #ffffff;
+  padding: 16px;
+  font-size: 80%;
+}
+
+.post ul
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.post ul ul
+{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a
+{
+  color: #0085A1;
+}
+
+img
+{
+  max-width: 100%;
+  height: auto;
+}
+
+.geolonia
+{
+  margin: 30px 0;
+  height: 200px;
+}
+
+.post h2
+{
+  border-bottom: 3px solid #cccccc;
+  padding-bottom: 16px;
+  margin-top: 60px;
+}
+
+p.codepen
+{
+  text-align: right;
+  margin-top: 0;
+}
+
+p.codepen a
+{
+  padding-left: 28px;
+  background-image: url("../img/codepen.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 80%;
+}

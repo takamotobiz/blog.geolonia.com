@@ -1,59 +1,25 @@
-site: Geolonia 開発ブログ
-timezone: Asia/Tokyo
+title:              Geolonia developer's blog
+description:        地図サービスの Geolonia の開発者によるブログです。
+author:             Geolonia Inc.
+baseurl:            ""
+url:                "https://blog.geolonia.com"
 
-collections:
-  pages:
-    output: true
-    permalink: /:name
-  posts:
-    output: true
-    permalink: /blog/:slug
+future: true
 
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+# Social Profiles
+twitter_username:   SBootstrap
+github_username:    geoloniamap
+facebook_username:  geolonia
+linkedin_username:
 
-markdown: kramdown
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-sass:
-  style: compressed
-
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
 plugins:
+  - jekyll-feed
   - jekyll-paginate
-  - jekyll-sitemap
-
-paginate: 6
-paginate_path: "/blog/page:num/"
-
-authors:
-  miya:
-    avatar: miya.jpg
-    description: "和歌山県の串本町という辺境の地に在住。オープンソースが好きでコーギーとパンダの写真には問答無用でいいねをします。"
-    twitter: miya0001
-    github: miya0001
-    instagram: miya0001
-  kamataryo:
-    avatar: kamataryo.jpg
-    description: '滋賀県の山奥在住。動物や植物に親しみながらリモートで開発をしています。'
-    twitter: kamataryo_
-    github: kamataryo
-    instagram: kamata.ryo
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
