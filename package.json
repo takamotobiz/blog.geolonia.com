@@ -4,6 +4,6 @@
   "scripts": {
     "start": "bundle exec jekyll serve",
     "init": "bundle install --path vendor",
-    "build": "bundle exec jekyll build && cp _headers _site/"
+    "build": "npm run init && bundle exec jekyll build && cp _headers _site/"
   }
 }
