@@ -21,7 +21,7 @@
       "title": {{ post.title | jsonify }},
       "excerpt": {{ post.excerpt | jsonify  }},
       "thumbnail": "{{ post.background | prepend: site.baseurl | prepend: site.url }}",
-      "date_published": "{{ post.date | date_to_rfc822 }}"
+      "date_published": "{{ post.date | date: "%Y/%m/%d" }}"
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ]
