@@ -1,0 +1,4 @@
+---
+---
+{% for post in site.posts limit:1000 %}{{ post.url | prepend: site.baseurl | prepend: site.url }}
+{% endfor %}
