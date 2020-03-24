@@ -33,7 +33,7 @@ Maputnik はブラウザで動作するツールなので、今回は Geolonia �
 
 Geolonia は、すべてのスタイルを GitHub 上に公開していて、それぞれの README に "DEMO on editor" というリンクがはってあります。
 
-[https://editor.geolonia.com/#0.91/0/0](https://editor.geolonia.com/#0.91/0/0)
+[https://editor.geolonia.com/?style=https://raw.githubusercontent.com/geolonia/basic/master/style.json](https://editor.geolonia.com/?style=https://raw.githubusercontent.com/geolonia/basic/master/style.json)
 
 そこをクリックすると以下のような画面が開くと思います。
 
