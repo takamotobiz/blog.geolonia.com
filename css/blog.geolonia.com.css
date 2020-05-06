@@ -70,8 +70,8 @@ p.codepen a
 
 .inquiry
 {
-  width: 100%;
-  max-width: 960px;
+  max-width: 100%;
+  width: 960px;
   margin: auto;
   padding: 16px;
   box-sizing: border-box;
