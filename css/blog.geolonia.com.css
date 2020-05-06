@@ -67,3 +67,11 @@ p.codepen a
   background-repeat: no-repeat;
   font-size: 80%;
 }
+
+.inquiry
+{
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+  padding: 16px;
+}
