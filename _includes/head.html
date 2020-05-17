@@ -21,7 +21,13 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
-  <meta property="og:image" content="{{ page.background }}" />
-  <meta name="twitter:image:src" content="{{ page.background }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@geoloniamap" />
+  <meta name="twitter:creator" content="@geoloniamap" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
+  <meta property="og:title" content="{{ page.title | escape }}" />
+  <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
+  <meta property="og:image" content="https://blog.geolonia.com{{ page.background }}" />
+  <meta name="twitter:image:src" content="https://blog.geolonia.com{{ page.background }}" />
   <meta name="google-site-verification" content="V7F2pR9zqZWHRMNRrgtbz-XzTJ0PFUWgOlxa5uOQZRk" />
 </head>
