@@ -26,13 +26,13 @@
   <meta name="twitter:creator" content="@geoloniamap" />
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
   <meta property="og:title" content="{{ page.title | escape }}" />
-  <title>
+
   {% if page.title %}
   <meta property="og:type" content="article" />
   {% else %}
   <meta property="og:type" content="website" />
   {% endif %}
-  </title>
+
   <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
   <meta property="og:image" content="https://blog.geolonia.com{{ page.background }}" />
   <meta name="twitter:image:src" content="https://blog.geolonia.com{{ page.background }}" />
