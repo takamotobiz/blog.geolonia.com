@@ -24,7 +24,7 @@ author: miya
 * [デモサイト](https://community-geocoder.geolonia.com/)では Geolonia の地図 （[地理院地図Vetor](https://maps.gsi.go.jp/vector/) と [OpenStreetMap](OpenStreetMap) の両方を基盤としたハイブリッド地図）を使用しています。
 
 <div class="alert alert-primary">
-Geolonia では、もうすこし精度が高く、このサービスと同様に自由度の高いジオコーディングサービスの開発も行っていますのでお楽しみに！
+Geolonia では会員向けに、もうすこし精度が高く、このサービスと同様に自由度の高いジオコーディングサービスの開発も行っていますのでお楽しみに！
 </div>
 
 ## 開発までの経緯
