@@ -21,6 +21,7 @@ author: miya
 * 精度は「大字町丁目」までとなっているため、商用のジオコーディングサービスに比べると精度は低いです。
 * たとえば某有名ジオコーディングサービスは、その会社の地図以外の地図上では利用できませんが、このサービスではそのような規約上の制約はありません。
 * わからないときはなるべく近くまでいく仕様になっています。（笑）
+* [デモサイト](https://community-geocoder.geolonia.com/)では Geolonia の地図 （[地理院地図Vetor](https://maps.gsi.go.jp/vector/) と [OpenStreetMap](OpenStreetMap) の両方を基盤としたハイブリッド地図）を使用しています。
 
 <div class="alert alert-primary">
 Geolonia では、もうすこし精度が高く、このサービスと同様に自由度の高いジオコーディングサービスの開発も行っていますのでお楽しみに！
