@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "無料で利用できてオープンソースのジオコーディング API （住所から緯度経度を検索）を公開しました。"
+title: "無料で利用できてオープンソースのジオコーディング API （住所から緯度経度を検索）「Community Geocoder」を公開しました。"
 background: /img/20200601/header.jpg
 excerpt: 静的ファイルによる API サービスかつオープンソースなので安心して利用できます。
 author: miya
@@ -8,7 +8,7 @@ author: miya
 
 <p style="text-align: right;">Photo by <a href="https://unsplash.com/@hendrikmorkel">Hendrik Morkel</a> on <a href="https://unsplash.com/">Unsplash</a></p>
 
-このたび Geolonia では、オープンソースかつ無料でご利用いただける住所から緯度経度を検索する（専門用語でジオコーディングといいます。）ための API を公開しました。
+このたび Geolonia では、オープンソースかつ無料でご利用いただける住所から緯度経度を検索する（専門用語でジオコーディングといいます。）ための API 「Community Geocoder」を公開しました。
 
 [https://community-geocoder.geolonia.com/](https://community-geocoder.geolonia.com/)
 
