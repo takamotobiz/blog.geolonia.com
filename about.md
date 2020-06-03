@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About Me
-description: This is what I do.
+title: About Us
+description: This is what we do.
 background: '/img/bg-index.jpg'
 ---
 
@@ -9,7 +9,7 @@ background: '/img/bg-index.jpg'
 
 このウェブサイトは、Geolonia の開発者たちによるブログです。
 
-Geolonia の地図に関する技術的な Tips 等を紹介しています。
+Geolonia のサービスに関するお知らせや、技術的な Tips などをご紹介しています。
 
 * [公式サイト](https://geolonia.com/)
 * [Twitter](https://twitter.com/geoloniamap/)
