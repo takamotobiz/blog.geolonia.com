@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "アウトドアの計画などに最適な、地図上での道のりを計測して共有するサービスを作りました。"
-background: /img/20200613/header.jpg
+background: /img/20200615/header.jpg
 excerpt: 地図上での道のりを URL で共有したり、地図画像と一緒にダウンロードできるサービスです。
 author: kamataryo
 ---
 
 <p style="text-align: right;">Photo by <a href="https://unsplash.com/@brianericksonco">Brian Erickson</a> on <a href="https://unsplash.com/">Unsplash</a></p>
 
-[![](/img/20200613/service.png)](https://trail-sharing.geolonia.com/)
+[![](/img/20200615/service.png)](https://trail-sharing.geolonia.com/)
 
 地図上での道のりを URL で共有したり、地図画像と一緒にダウンロードできるサービスを作りました。
 
@@ -37,7 +37,7 @@ author: kamataryo
 
 私はよく海や山にいくので、地図とともに計画をサッと共有できればいいと思っていました。例えば先日カヤックで琵琶湖を横断した時の道のりは次のようになります。
 
-![琵琶湖を往復で横断した軌跡。33.01km](/img/20200613/biwako.png)
+![琵琶湖を往復で横断した軌跡。33.01km](/img/20200615/biwako.png)
 
 また以下のリンクで地図を直接開くことができます。
 
