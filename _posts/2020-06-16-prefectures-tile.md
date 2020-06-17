@@ -59,9 +59,3 @@ Geolonia の地図は、CodePen 上や GitHub ページでは無料でご利用�
 [https://github.com/geolonia/prefecture-tiles](https://github.com/geolonia/prefecture-tiles)
 
 スクリプト等を使用して、弊社のウェブサーバーからバルクダウンロードするような行為は絶対にしないでください。
-
-## 謝辞
-
-都道府県の GeoJSON は地図蔵様からダウンロードさせていただきました。
-
-[https://japonyol.net/editor/article/47-prefectures-geojson.html](https://japonyol.net/editor/article/47-prefectures-geojson.html)
