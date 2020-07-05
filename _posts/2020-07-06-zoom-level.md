@@ -56,23 +56,19 @@ table {
 
 ## タイルの実際の大きさ
 
-メルカトル図法の特性として高緯度地域ほど距離や面積が誇張される性質があるため、1枚のタイルの実際の大きさがどのくらいになるのか、というのを考えるのは少し複雑です。メルカトル図法で投影した地図がどの程度歪んでいるのか、というのは、例えば次のツイート方が作成されたこの画像を見ると実感できます。
+メルカトル図法の特性として高緯度地域ほど距離や面積が誇張される性質があるため、1枚のタイルの実際の大きさがどのくらいになるのか、というのを考えるのは少し複雑です。メルカトル図法で投影した地図がどの程度歪んでいるのか、というのを実感するには、例えば次のツイートの方が作成された画像が参考になります。
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Showing the Mercator Map Projection with the true size and shape of the country overlaid<a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> <a href="https://twitter.com/hashtag/maps?src=hash&amp;ref_src=twsrc%5Etfw">#maps</a> <a href="https://twitter.com/hashtag/gis?src=hash&amp;ref_src=twsrc%5Etfw">#gis</a> <a href="https://twitter.com/hashtag/mapping?src=hash&amp;ref_src=twsrc%5Etfw">#mapping</a> <a href="https://t.co/Gqr1Dd8YrM">pic.twitter.com/Gqr1Dd8YrM</a></p>&mdash; Neil Kaye (@neilrkaye) <a href="https://twitter.com/neilrkaye/status/1161610119165161473?ref_src=twsrc%5Etfw">August 14, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 緯度による歪みを考慮すると、タイル1辺の大きさは次のようになります。ここでは、タイルのより赤道に近い辺（北半球ならば南側の辺）の長さを示しています。
 
-この値は次のスクリプトで算出できます。
-
-[https://gist.github.com/kamataryo/4987092fe1975dcf367ad7000858f834](https://gist.github.com/kamataryo/4987092fe1975dcf367ad7000858f834)
-
 |ズーム/緯度|0|10|20|30|40|50|60|70|80|
 |-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|
-|1|20021.37km|20021.37km|20021.37km|20021.37km|20021.37km|20021.37km|20021.37km|20021.37km|20021.37km|
-|2|10010.68km|10010.68km|10010.68km|10010.68km|10010.68km|10010.68km|10010.68km|3641.25km|3641.25km|
-|3|5005.34km|5005.34km|5005.34km|5005.34km|5005.34km|3735.61km|3735.61km|1951.55km|917.17km|
-|4|2502.67km|2502.67km|2502.67km|2319.26km|2319.26km|1884.1km|1401.35km|992.01km|467.27km|
-|5|1251.34km|1251.34km|1227.52km|1160.42km|1061.27km|821.48km|703km|498.03km|234.73km|
+|1|20021.37km|||||||||
+|2|10010.68km|||||||3641.25km||
+|3|5005.34km|||||3735.61km||1951.55km|917.17km|
+|4|2502.67km|||2319.26km||1884.1km|1401.35km|992.01km|467.27km|
+|5|1251.34km||1227.52km|1160.42km|1061.27km|821.48km|703km|498.03km|234.73km|
 |6|625.67km|622.66km|599.46km|557.13km|502.24km|411.02km|323.89km|227.64km|117.5km|
 |7|312.83km|309.47km|295.23km|272.18km|243.72km|205.54km|161.98km|108.74km|56km|
 |8|156.42km|154.14km|147.62km|136.09km|119.98km|100.88km|79.31km|54.38km|27.33km|
@@ -99,7 +95,10 @@ table {
 |29|7.46cm|7.35cm|7.01cm|6.46cm|5.71cm|4.79cm|3.73cm|2.55cm|1.3cm|
 |30|3.73cm|3.67cm|3.5cm|3.23cm|2.86cm|2.4cm|1.86cm|1.28cm|0.65cm|
 
-緯度が0度付近の場所と80度付近の場所では約6倍の差があるようですね。また、緯度40度と20度では1.5倍弱の差があります。
+この値は次のスクリプトで算出しました。
+[https://gist.github.com/kamataryo/4987092fe1975dcf367ad7000858f834](https://gist.github.com/kamataryo/4987092fe1975dcf367ad7000858f834)
+
+緯度が0度付近の場所と80度付近の場所ではタイルの大きさに約6倍の差があるようですね。また、緯度40度と20度では1.5倍弱の差があります。
 例えば札幌の緯度が43度、那覇が26度なので、北海道と沖縄では、ウェブ地図上での見た目の距離や面積は実際のものと相当差があることが分かります。
 
 ## タイルの大きさを地図上で確認してみる
