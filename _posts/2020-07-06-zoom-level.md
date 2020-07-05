@@ -105,6 +105,7 @@ table {
 ## タイルの大きさを地図上で確認してみる
 
 次のウェブアプリを使うと、Geolonia の地図上でタイルのグリッドを表示し、実際の大きさを確認することができます。
+タイルのズームレベルと大きさを確認したい方はぜひアクセスしてみて下さい。
 
 [https://geolonia.github.io/vector-grids/](https://geolonia.github.io/vector-grids/)
 
