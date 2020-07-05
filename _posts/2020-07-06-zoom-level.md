@@ -60,7 +60,7 @@ table {
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Showing the Mercator Map Projection with the true size and shape of the country overlaid<a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> <a href="https://twitter.com/hashtag/maps?src=hash&amp;ref_src=twsrc%5Etfw">#maps</a> <a href="https://twitter.com/hashtag/gis?src=hash&amp;ref_src=twsrc%5Etfw">#gis</a> <a href="https://twitter.com/hashtag/mapping?src=hash&amp;ref_src=twsrc%5Etfw">#mapping</a> <a href="https://t.co/Gqr1Dd8YrM">pic.twitter.com/Gqr1Dd8YrM</a></p>&mdash; Neil Kaye (@neilrkaye) <a href="https://twitter.com/neilrkaye/status/1161610119165161473?ref_src=twsrc%5Etfw">August 14, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-緯度による歪みを考慮すると、タイル1辺の大きさは次のようになります。ここでは、より赤道に近い方のタイルの辺（北半球ならば南側の辺）の長さを示しています。
+緯度による歪みを考慮すると、タイル1辺の大きさは次のようになります。ここでは、タイルのより赤道に近い辺（北半球ならば南側の辺）の長さを示しています。
 
 この値は次のスクリプトで算出できます。
 
