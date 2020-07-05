@@ -56,7 +56,7 @@ table {
 
 ## タイルの実際の大きさ
 
-なぜならば、メルカトル図法の特性として高緯度地域ほど距離や面積が誇張される性質があるため、1枚のタイルの実際の大きさがどのくらいになるのか、というのを考えるのは少し複雑です。メルカトル図法で投影した地図がどの程度歪んでいるのか、というのは、例えば次のツイート方が作成されたこの画像を見ると実感できます。
+メルカトル図法の特性として高緯度地域ほど距離や面積が誇張される性質があるため、1枚のタイルの実際の大きさがどのくらいになるのか、というのを考えるのは少し複雑です。メルカトル図法で投影した地図がどの程度歪んでいるのか、というのは、例えば次のツイート方が作成されたこの画像を見ると実感できます。
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Showing the Mercator Map Projection with the true size and shape of the country overlaid<a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> <a href="https://twitter.com/hashtag/maps?src=hash&amp;ref_src=twsrc%5Etfw">#maps</a> <a href="https://twitter.com/hashtag/gis?src=hash&amp;ref_src=twsrc%5Etfw">#gis</a> <a href="https://twitter.com/hashtag/mapping?src=hash&amp;ref_src=twsrc%5Etfw">#mapping</a> <a href="https://t.co/Gqr1Dd8YrM">pic.twitter.com/Gqr1Dd8YrM</a></p>&mdash; Neil Kaye (@neilrkaye) <a href="https://twitter.com/neilrkaye/status/1161610119165161473?ref_src=twsrc%5Etfw">August 14, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
