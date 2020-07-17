@@ -23,7 +23,7 @@ Geolonia の特徴的な機能の 1 つが [Embed API](https://docs.Geolonia.io/
       data-lng="139.7671707"
       data-zoom="14"
     ></div>
-    <script src="https://api.geolonia.com/v1/embed?geolonia-api-key=YOUR-API-KEY"></script>
+    <script src="https://cdn.geolonia.com/v1/embed?geolonia-api-key=YOUR-API-KEY"></script>
   </body>
 </html>
 ```
