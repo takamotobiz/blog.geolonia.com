@@ -1,5 +1,45 @@
 # blog.geolonia.com
 
+## ブログの投稿方法
+
+### はじめに
+
+[blog.geolonia.com](https://blog.geolonia.com) は [Jekyll](https://jekyllrb.com/) という静的ウェブサイトのジェネレーターを使って生成されています。
+また、ファイルの配信は [Netlify](https://www.netlify.com/) というサービスを用いています。
+新しい投稿や画像の追加、記事の修正などを元データに反映して GitHub に変更をプッシュすると、HTML を含むブログの静的ファイル一式が自動的にサーバー上で生成されサイトが更新される仕組みになっています。
+
+### ファイル構成のルール
+
+以下のディレクトリにマークダウン形式のテキストファイルまたは画像ファイルを追加することで記事や固定ページを追加できます。
+
+| ディレクトリ | 内容     |
+| :------------- | :------------- |
+| [`_posts`](https://github.com/geolonia/blog.geolonia.com/tree/master/_posts)| 個別のブログ記事のマークダウンファイルを格納する       |
+| [`_pages`](https://github.com/geolonia/blog.geolonia.com/tree/master/_pages)| 個別の固定ページのマークダウンファイルを格納する       |
+| [`img`](https://github.com/geolonia/blog.geolonia.com/tree/master/img)| 画像ファイルを格納する。ファイルは、 各マークダウンのファイルから絶対パス（例: `/img/image.jpg`) でアクセスできる |
+
+### GitHub の UI からファイルを追加する
+
+ファイルのアップロード、またはブラウザ上のテキストエディタを使ってファイルを追加することができます。当プロジェクトに書き込み権限がない場合は、プロジェクトをフォークすることで同じ操作が可能です。
+
+[テキストエディタを使ってブログ投稿を追加する](https://github.com/geolonia/blog.geolonia.com/new/master/_posts)
+
+![pre commit](./_readme/020_precommit.png)
+
+ページ下部の `Commit new file` に表示されているフォームにタイトルや概要を入力することで、今回のブログ投稿に関する変更履歴を Git の機能で記録することができます。
+
+レビューなしでブログを更新する場合は `Commit directly to master branch.` を、プルリクエストのレビュー機能を使う場合は `Create a new branch for this commit and start a pull request.` を選択して任意のブランチ名を指定してください。
+
+### デプロイプレビューでレビューを行う
+
+プルリクエストを作成すると Netlify によってデプロイプレビューというものが作成されます。これは、プレビュー用の URL を発行してプルリクエストがマージされた状態でのウェブサイトを作成し、目視でのレビューを実現するための機能です。
+
+![pre commit](./_readme/040_deploypreview.png)
+
+GitHub のプルリクエストのページにデプロイプレビューのステータスが表示されます。ステータスが `Deploy preview ready!` になった後でリンクをクリックするとデプロイプレビューにアクセスできます。
+
+## Advanced
+
 ```
 $ bundle install --path vendor
 $ bundle exec jekyll serve
@@ -12,15 +52,13 @@ $ bundle exec jekyll serve
 
 This repository holds the official Jekyll version of the Clean Blog theme on Start Bootstrap!
 
-## Preview
-
-[![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog-jekyll.png)](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
+### Preview
 
 **[View Live Preview](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)**
 
-## Installation & Setup
+### Installation & Setup
 
-### Using RubyGems:
+#### Using RubyGems:
 
 When installing the theme using RubyGems, demo images, posts, and pages are not included. Follow the instructions below for complete setup.
 
@@ -109,7 +147,7 @@ Make sure you have the `email` setting in your `_config.yml` file set to a worki
 
 6. Build your site: `bundle exec jekyll serve`
 
-### Using Core Files
+#### Using Core Files
 
 When using the core files, the demo images, posts, and pages are all included with the download. After following the instructions below, you can then go and change the content of the pages and posts.
 
@@ -127,11 +165,11 @@ When using the core files, the demo images, posts, and pages are all included wi
    - `linkedin_username` (Optional)
 3. Build your site: `bundle exec jekyll serve`
 
-## Bugs and Issues
+### Bugs and Issues
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/issues) here on GitHub!
 
-## About
+### About
 
 Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
@@ -146,6 +184,6 @@ Start Bootstrap was created by and is maintained by **[David Miller](http://davi
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-## Copyright and License
+### Copyright and License
 
 Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/blob/gh-pages/LICENSE) license.
