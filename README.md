@@ -24,7 +24,7 @@
 
 [テキストエディタを使ってブログ投稿を追加する](https://github.com/geolonia/blog.geolonia.com/new/master/_posts)
 
-![pre commit](./_readme/020_precommit.png)
+![pre commit](./img/_readme/020_precommit.png)
 
 ページ下部の `Commit new file` に表示されているフォームにタイトルや概要を入力することで、今回のブログ投稿に関する変更履歴を Git の機能で記録することができます。
 
@@ -34,7 +34,7 @@
 
 プルリクエストのレビューの際にデプロイプレビューを利用できます。これは、プレビュー用の URL を発行してプルリクエストがマージされた状態でのウェブサイトを作成し、目視でのレビューを実現するための機能です。master ブランチに対するプルリクエストを作成すると Netlify によって自動的に作成されます。
 
-![deploy preview](./_readme/040_deploypreview.png)
+![deploy preview](./img/_readme/040_deploypreview.png)
 
 GitHub のプルリクエストのページにデプロイプレビューのステータスが表示されます。ステータスが `Deploy preview ready!` になった後でリンクをクリックするとデプロイプレビューにアクセスできます。プルリクエストのレビュワーはこの一時的なウェブサイトにアクセスして表示を確認しながらレビューを進めることができます。
 
