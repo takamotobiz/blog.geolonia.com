@@ -1,6 +1,6 @@
 ---
 layout: post
-title: タイルのデプロイ時間を！ベクトルタイルの動的配信を完全サーバーレス化した話
+title: タイルのデプロイ時間を大幅に短縮！ベクトルタイルの動的配信を完全サーバーレス化した話
 background: /img/20201203/header.jpg
 excerpt: Geolonia のベクトルタイル配信環境をアップデートし、ベクトルタイル開発のフローを効率化しました。
 author: kamataryo
@@ -51,6 +51,6 @@ EFS を使うことでデプロイの速度が大幅に改善されました。�
 
 ---
 
-Geolonia ではクラウドや Node.js が好きな開発パートナーさんを募集しています。
+Geolonia ではクラウドや Node.js などの技術が好きな開発パートナーさんを募集しています。
 ぜひ Geolonia の [Office Hour](https://calendly.com/geolonia/office-hour) に遊びに来てください。
-雑談でも大歓迎です！
+お仕事のご相談やその他技術談義なども大歓迎です！
