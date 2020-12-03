@@ -56,3 +56,11 @@ EFS を使うことでデプロイの速度が大幅に改善されました。2
 Geolonia ではクラウドや Node.js などの技術が好きな開発パートナーさんを募集しています。
 ぜひ Geolonia の [Office Hour](https://calendly.com/geolonia/office-hour) に遊びに来てください。
 お仕事の相談やその他技術談義なども大歓迎です！
+
+## 追記
+
+このタイル配信システムは、以下のリポジトリで MIT ライセンスで公開しています。
+
+[https://github.com/geolonia/tileserverless](https://github.com/geolonia/tileserverless)
+
+プルリクエストや Issue などお気軽にお寄せください。日本語でもOKです。
