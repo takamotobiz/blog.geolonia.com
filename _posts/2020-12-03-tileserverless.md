@@ -1,7 +1,7 @@
 ---
 layout: post
 title: タイルのデプロイ時間を大幅に短縮！完全サーバーレスなベクトルタイルの動的配信の話
-background: /img/20201203/header.jpg
+background: /img/20201203/header.png
 excerpt: Geolonia のベクトルタイル配信環境をアップデートし、ベクトルタイル開発のフローを効率化しました。
 author: kamataryo
 ---
