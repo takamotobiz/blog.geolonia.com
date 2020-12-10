@@ -86,3 +86,9 @@ p.codepen a
   padding: 16px;
   box-sizing: border-box;
 }
+
+/* tables */
+.post table tr {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
